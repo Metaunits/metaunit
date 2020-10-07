@@ -1,160 +1,160 @@
 
 // ****** Metric length conversion ******
 
-//centimeter to millimeters
-const centimeter_to_millimeters =(centimeter) => {
+//centimeters to millimeters
+const centimeters_to_millimeters =(centimeter) => {
     return centimeter * 10
 }
 
-//decimeter to centimeters
-const decimeter_to_centimeters = (decimeter) => {
+//decimeters to centimeters
+const decimeters_to_centimeters = (decimeter) => {
     return decimeter * 10
 }
 
-//meter to centimeters
-const meter_to_centimeters = (meter) => {
+//meters to centimeters
+const meters_to_centimeters = (meter) => {
     return meter * 100
 }
 
-//meter to decimeters
-const meter_to_decimeters = (meter) => {
+//meters to decimeters
+const meters_to_decimeters = (meter) => {
     return meter * 10
 }
 
-//kilometer to meters
-const kilometer_to_meters = (kilometer) => {
+//kilometers to meters
+const kilometers_to_meters = (kilometer) => {
     return kilometer * 1000
 }
 
 // ****** Metric area conversion ******
 
-//square centimeter to square millimeters
-const squareCentimeter_to_squareMillimeters = (squareCentimeter) => {
+//square centimeters to square millimeters
+const squareCentimeters_to_squareMillimeters = (squareCentimeter) => {
     return sqmillimeters * 100
 }
 
-//square meter to square centimeters
-const squareMeter_to_squareCentimeters = (sqmeter) => {
+//square meters to square centimeters
+const squareMeters_to_squareCentimeters = (sqmeter) => {
     return sqmeter * 10000
 }
 
-//hectare to square meters
-const hectare_to_squareMeters = (hectare) => {
+//hectares to square meters
+const hectares_to_squareMeters = (hectare) => {
     return hectare * 10000
 }
 
-// square kilometer to hectares
-const squareMeter_to_hectares = (sqkilometer) => {
+// square kilometers to hectares
+const squareMeters_to_hectares = (sqkilometer) => {
     return sqkilometer * 100
 }
 
-//square kilometer to square meters
-const squareKilometer_to_squareMeters = (sqkilometer) => {
+//square kilometers to square meters
+const squareKilometers_to_squareMeters = (sqkilometer) => {
     return sqkilometer * 1000000
 }
 
 
 // ****** Metric volume conversion ******
 
-//cubic centimeter to cubic millimeter
-const cubicCentimeter_to_cubicMillimeters = (cubicCentimeter) => {
+//cubic centimeters to cubic millimeter
+const cubicCentimeters_to_cubicMillimeters = (cubicCentimeter) => {
     return cubicCentimeter * 1000
 }
 
-//cubic decimeter to cubic centimeter
-const cubicDecimeter_to_cubicCentimeters = (cubicDecimeter) =>{
+//cubic decimeters to cubic centimeter
+const cubicDecimeters_to_cubicCentimeters = (cubicDecimeter) =>{
     return cubicDecimeter * 1000
 }
 
-//cubic meter to cubic centimeter
-const cubicMeter_to_cubicCentimeters = (cubicMeter) => {
+//cubic meters to cubic centimeter
+const cubicMeters_to_cubicCentimeters = (cubicMeter) => {
     return cubicMeter * 1000000
 }
 
-//cubic meter to cubic decimeter
-const cubicMeter_to_cubicDecimeters = (cubicMeter) => {
+//cubic meters to cubic decimeter
+const cubicMeters_to_cubicDecimeters = (cubicMeter) => {
     return cubicMeter * 1000
 }
 
 
 // ****** Metric weight conversion ******
 
-//gram to milligrams
-const gram_to_milligrams = (gram) => {
+//grams to milligrams
+const grams_to_milligrams = (gram) => {
     return gram * 1000
 }
 
-//decagram to grams
-const decagram_to_grams = (decagram) => {
+//decagrams to grams
+const decagrams_to_grams = (decagram) => {
     return decagram * 10
 }
 
-//kilogram to grams
-const kilogram_to_grams = (kilogram) => {
+//kilograms to grams
+const kilograms_to_grams = (kilogram) => {
     return kilogram * 1000
 }
 
-//tonne to kilogram
-const tonne_to_kilograms = (tonne) => {
+//tonnes to kilogram
+const tonnes_to_kilograms = (tonne) => {
     return tonne * 1000
 }
 
-//gigagram to megagram 
-const gigagram_to_megagrams = (gigagram) => {
+//gigagrams to megagram 
+const gigagrams_to_megagrams = (gigagram) => {
     return gigagram * 1000
 }
 
 // ****** Metric liquid conversion ******
 
-//centiliter to milliliters
-const centiliter_to_milliliters = (centiliter) => {
+//centiliters to milliliters
+const centiliters_to_milliliters = (centiliter) => {
     return centiliter * 10
 }
 
-//deciliter to centiliters
-const deciliter_to_centiliters = (deciliter) => {
+//deciliters to centiliters
+const deciliters_to_centiliters = (deciliter) => {
     return deciliter * 10
 }
 
-//liter to milliliters
-const liter_to_milliliters = (liter) => {
+//liters to milliliters
+const liters_to_milliliters = (liter) => {
     return liter * 1000
 }
 
-//liter to deciliters
-const liter_to_deciliters = (liter) => {
+//liters to deciliters
+const liters_to_deciliters = (liter) => {
     return liter * 10
 }
 
-//kiloliter to liters
-const kiloliter_to_liters = (kiloliter) => {
+//kiloliters to liters
+const kiloliters_to_liters = (kiloliter) => {
     return kiloliter * 1000
 }
 
 
 module.exports = {
-    centimeter_to_millimeters,
-    decimeter_to_centimeters,
-    meter_to_centimeters,
-    meter_to_decimeters,
-    kilometer_to_meters,
-    squareCentimeter_to_squareMillimeters,
-    squareMeter_to_squareCentimeters,
-    hectare_to_squareMeters,
-    squareMeter_to_hectares,
-    squareKilometer_to_squareMeters,
-    cubicCentimeter_to_cubicMillimeters,
-    cubicDecimeter_to_cubicCentimeters,
-    cubicMeter_to_cubicCentimeters,
-    cubicMeter_to_cubicDecimeters,
-    gram_to_milligrams,
-    decagram_to_grams,
-    kilogram_to_grams,
-    tonne_to_kilograms,
-    gigagram_to_megagrams,
-    centiliter_to_milliliters,
-    deciliter_to_centiliters,
-    liter_to_milliliters,
-    liter_to_deciliters,
-    kiloliter_to_liters
+    centimeters_to_millimeters,
+    decimeters_to_centimeters,
+    meters_to_centimeters,
+    meters_to_decimeters,
+    kilometers_to_meters,
+    squareCentimeters_to_squareMillimeters,
+    squareMeters_to_squareCentimeters,
+    hectares_to_squareMeters,
+    squareMeters_to_hectares,
+    squareKilometers_to_squareMeters,
+    cubicCentimeters_to_cubicMillimeters,
+    cubicDecimeters_to_cubicCentimeters,
+    cubicMeters_to_cubicCentimeters,
+    cubicMeters_to_cubicDecimeters,
+    grams_to_milligrams,
+    decagrams_to_grams,
+    kilograms_to_grams,
+    tonnes_to_kilograms,
+    gigagrams_to_megagrams,
+    centiliters_to_milliliters,
+    deciliters_to_centiliters,
+    liters_to_milliliters,
+    liters_to_deciliters,
+    kiloliters_to_liters
 }

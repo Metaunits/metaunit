@@ -8,29 +8,29 @@ Metaunit is NPM package for unit conversion.
 
 ## Usage
 
-### centimeter to millimters
+### centimeters to millimeters
 ```
 const unit = require('metaunit');
 
-const cm_to_mm = unit.centimeter_to_millimeters(1);
+const cm_to_mm = unit.centimeters_to_millimeters(1);
 console.log(cm_to_mm);
 
 ```
 
-### kilogram to grams
+### kilograms to grams
 ```
 const unit = require('metaunit')
 
-const kg_to_g = unit.kilogram_to_grams(20)
+const kg_to_g = unit.kilograms_to_grams(20)
 console.log(kg_to_g);
 
 ```
 
-### liter to milliliter
+### liters to milliliter
 ```
 const unit = require('metaunit')
 
-const l_to_ml = unit.liter_to_milliliters(5)
+const l_to_ml = unit.liters_to_milliliters(5)
 console.log(l_to_ml);
 
 ```
