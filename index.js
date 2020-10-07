@@ -104,6 +104,33 @@ const gigagram_to_megagrams = (gigagram) => {
     return gigagram * 1000
 }
 
+// ****** Metric liquid conversion ******
+
+//centiliter to milliliters
+const centiliter_to_milliliters = (centiliter) => {
+    return centiliter * 10
+}
+
+//deciliter to centiliters
+const deciliter_to_centiliters = (deciliter) => {
+    return deciliter * 10
+}
+
+//liter to milliliters
+const liter_to_milliliters = (liter) => {
+    return liter * 1000
+}
+
+//liter to deciliters
+const liter_to_deciliters = (liter) => {
+    return liter * 10
+}
+
+//kiloliter to liters
+const kiloliter_to_liters = (kiloliter) => {
+    return kiloliter * 1000
+}
+
 
 module.exports = {
     centimeter_to_millimeters,
@@ -124,5 +151,10 @@ module.exports = {
     decagram_to_grams,
     kilogram_to_grams,
     tonne_to_kilograms,
-    gigagram_to_megagrams
+    gigagram_to_megagrams,
+    centiliter_to_milliliters,
+    deciliter_to_centiliters,
+    liter_to_milliliters,
+    liter_to_deciliters,
+    kiloliter_to_liters
 }
