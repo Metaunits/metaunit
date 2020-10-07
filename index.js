@@ -77,6 +77,33 @@ const cubicMeter_to_cubicDecimeters = (cubicMeter) => {
 }
 
 
+// ****** Metric weight conversion ******
+
+//gram to milligrams
+const gram_to_milligrams = (gram) => {
+    return gram * 1000
+}
+
+//decagram to grams
+const decagram_to_grams = (decagram) => {
+    return decagram * 10
+}
+
+//kilogram to grams
+const kilogram_to_grams = (kilogram) => {
+    return kilogram * 1000
+}
+
+//tonne to kilogram
+const tonne_to_kilograms = (tonne) => {
+    return tonne * 1000
+}
+
+//gigagram to megagram 
+const gigagram_to_megagrams = (gigagram) => {
+    return gigagram * 1000
+}
+
 
 module.exports = {
     centimeter_to_millimeters,
@@ -92,6 +119,10 @@ module.exports = {
     cubicCentimeter_to_cubicMillimeters,
     cubicDecimeter_to_cubicCentimeters,
     cubicMeter_to_cubicCentimeters,
-    cubicMeter_to_cubicDecimeters
-
+    cubicMeter_to_cubicDecimeters,
+    gram_to_milligrams,
+    decagram_to_grams,
+    kilogram_to_grams,
+    tonne_to_kilograms,
+    gigagram_to_megagrams
 }
