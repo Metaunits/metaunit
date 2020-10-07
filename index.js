@@ -55,3 +55,18 @@ const sqkilometer_to_sqmeters = (sqkilometer) => {
 
 
 // ****** Metric area conversion ******
+
+
+
+module.exports = {
+    centimeter_to_millimeters,
+    decimeter_to_centimeters,
+    meter_to_centimeters,
+    meter_to_decimeters,
+    kilometer_to_meters,
+    sqcentimeter_to_sqmillimeters,
+    sqmeter_to_sqcentimeters,
+    hectare_to_sqmeters,
+    sqmeter_to_hectares,
+    sqkilometer_to_sqmeters
+}
