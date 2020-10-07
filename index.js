@@ -66,6 +66,16 @@ const cubicDecimeter_to_cubicCentimeters = (cubicDecimeter) =>{
     return cubicDecimeter * 1000
 }
 
+//cubic meter to cubic centimeter
+const cubicMeter_to_cubicCentimeters = (cubicMeter) => {
+    return cubicMeter * 1000000
+}
+
+//cubic meter to cubic decimeter
+const cubicMeter_to_cubicDecimeter = (cubicMeter) => {
+    return cubicMeter * 1000
+}
+
 
 
 module.exports = {
@@ -78,5 +88,10 @@ module.exports = {
     squareMeter_to_squareCentimeters,
     hectare_to_squareMeters,
     squareMeter_to_hectares,
-    squareKilometer_to_squareMeters
+    squareKilometer_to_squareMeters,
+    cubicCentimeter_to_cubicMillimeters,
+    cubicDecimeter_to_cubicCentimeters,
+    cubicMeter_to_cubicCentimeters,
+    cubicMeter_to_cubicDecimeter
+
 }
