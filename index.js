@@ -29,32 +29,42 @@ const kilometer_to_meters = (kilometer) => {
 // ****** Metric area conversion ******
 
 //square centimeter to square millimeters
-const sqcentimeter_to_sqmillimeters = (sqmillimeters) => {
+const squareCentimeter_to_squareMillimeters = (squareCentimeter) => {
     return sqmillimeters * 100
 }
 
 //square meter to square centimeters
-const sqmeter_to_sqcentimeters = (sqmeter) => {
+const squareMeter_to_squareCentimeters = (sqmeter) => {
     return sqmeter * 10000
 }
 
 //hectare to square meters
-const hectare_to_sqmeters = (hectare) => {
+const hectare_to_squareMeters = (hectare) => {
     return hectare * 10000
 }
 
 // square kilometer to hectares
-const sqmeter_to_hectares = (sqkilometer) => {
+const squareMeter_to_hectares = (sqkilometer) => {
     return sqkilometer * 100
 }
 
 //square kilometer to square meters
-const sqkilometer_to_sqmeters = (sqkilometer) => {
+const squareKilometer_to_squareMeters = (sqkilometer) => {
     return sqkilometer * 1000000
 }
 
 
-// ****** Metric area conversion ******
+// ****** Metric volume conversion ******
+
+//cubic centimeter to cubic millimeter
+const cubicCentimeter_to_cubicMillimeters = (cubicCentimeter) => {
+    return cubicCentimeter * 1000
+}
+
+//cubic decimeter to cubic centimeter
+const cubicDecimeter_to_cubicCentimeters = (cubicDecimeter) =>{
+    return cubicDecimeter * 1000
+}
 
 
 
@@ -64,9 +74,9 @@ module.exports = {
     meter_to_centimeters,
     meter_to_decimeters,
     kilometer_to_meters,
-    sqcentimeter_to_sqmillimeters,
-    sqmeter_to_sqcentimeters,
-    hectare_to_sqmeters,
-    sqmeter_to_hectares,
-    sqkilometer_to_sqmeters
+    squareCentimeter_to_squareMillimeters,
+    squareMeter_to_squareCentimeters,
+    hectare_to_squareMeters,
+    squareMeter_to_hectares,
+    squareKilometer_to_squareMeters
 }
