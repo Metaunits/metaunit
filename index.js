@@ -72,7 +72,7 @@ const cubicMeter_to_cubicCentimeters = (cubicMeter) => {
 }
 
 //cubic meter to cubic decimeter
-const cubicMeter_to_cubicDecimeter = (cubicMeter) => {
+const cubicMeter_to_cubicDecimeters = (cubicMeter) => {
     return cubicMeter * 1000
 }
 
@@ -92,6 +92,6 @@ module.exports = {
     cubicCentimeter_to_cubicMillimeters,
     cubicDecimeter_to_cubicCentimeters,
     cubicMeter_to_cubicCentimeters,
-    cubicMeter_to_cubicDecimeter
+    cubicMeter_to_cubicDecimeters
 
 }
