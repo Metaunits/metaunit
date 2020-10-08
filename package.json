@@ -10,7 +10,16 @@
     "type": "git",
     "url": "git+https://github.com/bathicodes/metaunit.git"
   },
-  "keywords": [],
+  "keywords": [
+    "units",
+    "conversion",
+    "area",
+    "metric",
+    "length",
+    "volume",
+    "weight",
+    "liquid"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {

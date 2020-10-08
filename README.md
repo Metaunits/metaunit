@@ -41,7 +41,7 @@ console.log(l_to_ml);
 
 ## What does it do?
 
-metaunit will convert you metric values. You only have to pass the desired unit values insdie as paramet of the method.
+metaunit will convert you metric values. You only have to pass the desired unit values inside as parameter of the method.
 
 ## When should I use
 

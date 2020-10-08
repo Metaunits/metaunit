@@ -104,6 +104,7 @@ const gigagrams_to_megagrams = (gigagram) => {
     return gigagram * 1000
 }
 
+
 // ****** Metric liquid conversion ******
 
 //centiliters to milliliters
@@ -132,6 +133,55 @@ const kiloliters_to_liters = (kiloliter) => {
 }
 
 
+// ****** Byte conversion ******
+
+//byte to bits
+const bytes_to_bit = (bytes) => {
+    return bytes * 8
+}
+
+//kilobyte to bytes
+const kilobyte_to_byte = (kilobytes) => {
+    return kilobytes * 1024
+}
+
+//megabyte to kilobytes
+const megabyte_to_kilobytes = (megabytes) => {
+    return megabytes * 1024
+}
+
+//gigabyte to megabytes
+const gigabyte_to_megabytes = (gigabyte) => {
+    return gigabyte * 1024
+}
+
+//terabyte to gigabytes
+const terabytes_to_gigabyte = (terabytes) => {
+    return terabytes * 1024
+}
+
+//petabyte to terabytes
+const petabytes_to_terabyte = (petabytes) => {
+    return petabytes * 1024
+}
+
+//exabyte to petabytes
+const exabyte_to_petabytes = (exabyte) => {
+    return exabyte * 1024
+}
+
+//zettabyte to exabytes
+const zettabyte_to_exabytes = (zettabyte) => {
+    return zettabyte * 1024
+}
+
+//yottabyte to zettabytes
+const yottabyte_to_zettabytes = (yottabyte) => {
+    return yottabyte * 1024
+}
+
+
+
 module.exports = {
     centimeters_to_millimeters,
     decimeters_to_centimeters,
@@ -156,5 +206,14 @@ module.exports = {
     deciliters_to_centiliters,
     liters_to_milliliters,
     liters_to_deciliters,
-    kiloliters_to_liters
+    kiloliters_to_liters,
+    bytes_to_bit,
+    kilobyte_to_byte,
+    megabyte_to_kilobytes,
+    gigabyte_to_megabytes,
+    terabytes_to_gigabyte,
+    petabytes_to_terabyte,
+    exabyte_to_petabytes,
+    zettabyte_to_exabytes,
+    yottabyte_to_zettabytes
 }
