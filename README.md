@@ -46,3 +46,43 @@ metaunit will convert you metric values. You only have to pass the desired unit 
 ## When should I use
 
 If you are trying to convert metric values use **metaunit**
+
+
+## Available metric conversions
+
+```
+    centimeters to millimeters
+    decimeters to entimeters
+    meters to centimeters
+    meters to decimeters
+    kilometers to meters
+    squareCentimeters to squareMillimeters
+    squareMeters to squareCentimeters
+    hectares to squareMeters
+    squareMeters to hectares
+    squareKilometers to squareMeters
+    cubicCentimeters to cubicMillimeters
+    cubicDecimeters to cubicCentimeters
+    cubicMeters to cubicCentimeters
+    cubicMeters to cubicDecimeters
+    grams to milligrams
+    decagrams to grams
+    kilograms to grams
+    tonnes to kilograms
+    gigagrams to megagrams
+    centiliters to milliliters
+    deciliters to centiliters
+    liters to milliliters
+    liters to deciliters
+    kiloliters to liters
+    bytes to bit
+    kilobyte to byte
+    megabyte to kilobytes
+    gigabyte to megabytes
+    terabytes to gigabyte
+    petabytes to terabyte
+    exabyte to petabytes
+    zettabyte to exabytes
+    yottabyte to zettabytes
+
+```
