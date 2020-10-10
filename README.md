@@ -56,15 +56,15 @@ If you are trying to convert metric values use **metaunit**
     meters to centimeters
     meters to decimeters
     kilometers to meters
-    squareCentimeters to squareMillimeters
-    squareMeters to squareCentimeters
-    hectares to squareMeters
-    squareMeters to hectares
-    squareKilometers to squareMeters
-    cubicCentimeters to cubicMillimeters
-    cubicDecimeters to cubicCentimeters
-    cubicMeters to cubicCentimeters
-    cubicMeters to cubicDecimeters
+    square centimeters to square millimeters
+    square meters to square centimeters
+    hectares to square meters
+    square Meters to hectares
+    square Kilometers to square Meters
+    cubic centimeters to cubic millimeters
+    cubic decimeters to cubic centimeters
+    cubic meters to cubic centimeters
+    cubic meters to cubic decimeters
     grams to milligrams
     decagrams to grams
     kilograms to grams

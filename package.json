@@ -1,6 +1,6 @@
 {
   "name": "metaunit",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Metaunit is NPM package for unit conversion",
   "main": "index.js",
   "scripts": {
